@@ -1,0 +1,28 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "airline": "Air India",
+      "from": "BLR",
+      "to": "DEL",
+      "date": "2026-09-10",
+      "price": 6500
+    },
+    {
+      "id": 2,
+      "airline": "IndiGo",
+      "from": "BLR",
+      "to": "DEL",
+      "date": "2026-09-10",
+      "price": 5800
+    },
+    {
+      "id": 3,
+      "airline": "Vistara",
+      "from": "BLR",
+      "to": "BOM",
+      "date": "2026-09-10",
+      "price": 7200
+    }
+  ]
+}
