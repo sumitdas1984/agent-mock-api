@@ -85,7 +85,7 @@
       "name": "Bangalore Grand",
       "city": "Bangalore",
       "area": "MG Road",
-      "rating": 4.3,
+      "rating": 4,
       "price_per_night_inr": 5200,
       "room_type": "Deluxe",
       "amenities": [
@@ -100,7 +100,7 @@
       "name": "Delhi Central Residency",
       "city": "Delhi",
       "area": "Connaught Place",
-      "rating": 4.5,
+      "rating": 4,
       "price_per_night_inr": 6800,
       "room_type": "Executive",
       "amenities": [
@@ -115,7 +115,7 @@
       "name": "The Heritage Delhi",
       "city": "Delhi",
       "area": "Aerocity",
-      "rating": 4.7,
+      "rating": 3,
       "price_per_night_inr": 8900,
       "room_type": "Premium",
       "amenities": [
@@ -131,7 +131,7 @@
       "name": "Mumbai Bay Hotel",
       "city": "Mumbai",
       "area": "Andheri",
-      "rating": 4.1,
+      "rating": 5,
       "price_per_night_inr": 6100,
       "room_type": "Deluxe",
       "amenities": [
@@ -145,7 +145,7 @@
       "name": "Chennai Marina Stay",
       "city": "Chennai",
       "area": "T Nagar",
-      "rating": 4.2,
+      "rating": 3,
       "price_per_night_inr": 4300,
       "room_type": "Deluxe",
       "amenities": [
