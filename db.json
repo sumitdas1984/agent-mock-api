@@ -3,26 +3,213 @@
     {
       "id": 1,
       "airline": "Air India",
+      "flight_number": "AI 803",
       "from": "BLR",
       "to": "DEL",
       "date": "2026-09-10",
-      "price": 6500
+      "departure": "06:10",
+      "arrival": "08:55",
+      "price_inr": 7200,
+      "stops": 0,
+      "seats_available": 8
     },
     {
       "id": 2,
       "airline": "IndiGo",
+      "flight_number": "6E 501",
       "from": "BLR",
       "to": "DEL",
       "date": "2026-09-10",
-      "price": 5800
+      "departure": "09:30",
+      "arrival": "12:15",
+      "price_inr": 6100,
+      "stops": 0,
+      "seats_available": 14
     },
     {
       "id": 3,
-      "airline": "Vistara",
+      "airline": "Akasa Air",
+      "flight_number": "QP 1356",
+      "from": "BLR",
+      "to": "DEL",
+      "date": "2026-09-10",
+      "departure": "18:20",
+      "arrival": "21:05",
+      "price_inr": 5750,
+      "stops": 0,
+      "seats_available": 6
+    },
+    {
+      "id": 4,
+      "airline": "Air India Express",
+      "flight_number": "IX 1132",
       "from": "BLR",
       "to": "BOM",
       "date": "2026-09-10",
-      "price": 7200
+      "departure": "07:00",
+      "arrival": "08:45",
+      "price_inr": 4800,
+      "stops": 0,
+      "seats_available": 11
+    },
+    {
+      "id": 5,
+      "airline": "IndiGo",
+      "flight_number": "6E 687",
+      "from": "DEL",
+      "to": "BLR",
+      "date": "2026-09-14",
+      "departure": "19:10",
+      "arrival": "21:55",
+      "price_inr": 6300,
+      "stops": 0,
+      "seats_available": 12
+    },
+    {
+      "id": 6,
+      "airline": "Air India",
+      "flight_number": "AI 505",
+      "from": "BLR",
+      "to": "MAA",
+      "date": "2026-09-11",
+      "departure": "10:15",
+      "arrival": "11:20",
+      "price_inr": 3900,
+      "stops": 0,
+      "seats_available": 20
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Bangalore Grand",
+      "city": "Bengaluru",
+      "area": "MG Road",
+      "rating": 4.3,
+      "price_per_night_inr": 5200,
+      "room_type": "Deluxe",
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Pool"
+      ],
+      "rooms_available": 5
+    },
+    {
+      "id": 2,
+      "name": "Delhi Central Residency",
+      "city": "Delhi",
+      "area": "Connaught Place",
+      "rating": 4.5,
+      "price_per_night_inr": 6800,
+      "room_type": "Executive",
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Gym"
+      ],
+      "rooms_available": 3
+    },
+    {
+      "id": 3,
+      "name": "The Heritage Delhi",
+      "city": "Delhi",
+      "area": "Aerocity",
+      "rating": 4.7,
+      "price_per_night_inr": 8900,
+      "room_type": "Premium",
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Pool",
+        "Airport Shuttle"
+      ],
+      "rooms_available": 4
+    },
+    {
+      "id": 4,
+      "name": "Mumbai Bay Hotel",
+      "city": "Mumbai",
+      "area": "Andheri",
+      "rating": 4.1,
+      "price_per_night_inr": 6100,
+      "room_type": "Deluxe",
+      "amenities": [
+        "WiFi",
+        "Gym"
+      ],
+      "rooms_available": 7
+    },
+    {
+      "id": 5,
+      "name": "Chennai Marina Stay",
+      "city": "Chennai",
+      "area": "T Nagar",
+      "rating": 4.2,
+      "price_per_night_inr": 4300,
+      "room_type": "Deluxe",
+      "amenities": [
+        "WiFi",
+        "Breakfast"
+      ],
+      "rooms_available": 6
+    }
+  ],
+  "weather": [
+    {
+      "id": 1,
+      "city": "Bengaluru",
+      "date": "2026-09-10",
+      "condition": "Partly cloudy",
+      "temperature_c": 27,
+      "feels_like_c": 28,
+      "humidity_percent": 68,
+      "rain_probability_percent": 25,
+      "wind_kmh": 14
+    },
+    {
+      "id": 2,
+      "city": "Delhi",
+      "date": "2026-09-10",
+      "condition": "Sunny",
+      "temperature_c": 34,
+      "feels_like_c": 36,
+      "humidity_percent": 45,
+      "rain_probability_percent": 10,
+      "wind_kmh": 12
+    },
+    {
+      "id": 3,
+      "city": "Mumbai",
+      "date": "2026-09-10",
+      "condition": "Light rain",
+      "temperature_c": 28,
+      "feels_like_c": 31,
+      "humidity_percent": 82,
+      "rain_probability_percent": 70,
+      "wind_kmh": 18
+    },
+    {
+      "id": 4,
+      "city": "Chennai",
+      "date": "2026-09-11",
+      "condition": "Cloudy",
+      "temperature_c": 30,
+      "feels_like_c": 34,
+      "humidity_percent": 76,
+      "rain_probability_percent": 45,
+      "wind_kmh": 16
+    },
+    {
+      "id": 5,
+      "city": "Goa",
+      "date": "2026-09-12",
+      "condition": "Scattered showers",
+      "temperature_c": 29,
+      "feels_like_c": 33,
+      "humidity_percent": 80,
+      "rain_probability_percent": 65,
+      "wind_kmh": 15
     }
   ]
 }
